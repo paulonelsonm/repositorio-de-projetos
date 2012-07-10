@@ -1,6 +1,7 @@
 <?php
      
      
+     //nome do projeto
      $project = 'Agenda/';
      
      // verifica se a url tem alguma barra
