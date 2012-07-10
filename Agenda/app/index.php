@@ -1,6 +1,7 @@
 <?php
      
      
+
      //Nome do projeto para o redirecionamento das paginas de erro.
      $project = 'Agenda/';
      
