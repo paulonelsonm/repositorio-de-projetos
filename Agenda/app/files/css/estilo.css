@@ -1,0 +1,220 @@
+/* 
+    Document   : estilo
+    Created on : 06/12/2011, 08:05:30
+    Author     : pmota
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body{}
+body div{
+    /*border: 1px #000000 solid;*/
+    border-radius: 3px;
+    font-family: Lucida, sans-serif;
+}
+
+.ui-pagina{
+    width: 1024px;
+    height: 700px;
+    
+    /*position: fixed;*/
+    border: 1px #f2f5f6 solid;
+    
+    background: #eeeeee;
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+    background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+    background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+    
+    -webkit-box-shadow: #cedce7 2px 2px 2px 2px ;
+    box-shadow: #cedce7 2px 2px 2px 2px ; 
+}
+
+/************ INICIO tratamento menu***********/
+
+.ui-content-menu{
+    margin: 0;
+    padding: 0;
+    height: 48px;
+    background: #000;
+    border: 2px darkgrey solid;
+    
+    
+    /* background: #eeeeee;  Old browsers */
+    
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+    
+}
+
+.ui-content-menu ul{
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+} 
+
+.ui-content-menu ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+.ui-content-menu ul li a{
+        
+    text-decoration: none;
+    text-align: left;
+    
+    font-size: 13px;
+    
+    height: 35px;
+    width: 150px;
+    
+    display: block;
+    
+    color: #606c88;
+    
+    border: 1px darkgrey solid;
+    padding: 12px 0px 0px 15px;
+    
+    
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+}
+
+.ui-content-menu ul li a:hover{
+    background: #eeeeee; 
+    color:#3f4c6b;
+}
+
+.ui-content-menu ul ul{
+    position: absolute;
+    visibility: hidden;
+    top: 49px;
+}
+
+
+.ui-content-menu ul li:hover ul{
+    visibility: visible;
+}
+
+/************ FIM tratamento menu***********/
+
+.ui-content-titulo{
+    
+    height: 60px;
+    
+    border: 2px darkgrey solid;
+        
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+    
+}
+
+.ui-content-titulo-conteudo{
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 10px 30px 10px;
+    margin: 0;
+    
+    height: 10px;
+    
+    color: #3f4c6b;
+    float: left;
+}
+
+.ui-content-titulo-sair{
+    font-size: 15px;
+    padding: 30px 30px 0 0;
+    margin: 0;
+    text-align: right;
+    width: 90px;
+    height: 25px;
+    float: right;
+}
+
+.ui-content-titulo-sair a{
+    text-decoration: none;
+    color: #3f4c6b;
+    
+    text-decoration: none;
+    text-align: left;
+    
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+
+.ui-content-titulo-sair a:hover{
+    text-decoration: underline;
+}
+
+.ui-content-conteudo{
+    height: 425px;
+    font-size: 10px;
+}
+
+.ui-content-rodape{
+    height: 30px;
+}
+
+
+.ui-login{
+    
+    width: 320px;
+    height: 300px;
+    border: 1px #000000 solid;
+    background: #eeeeee;
+    
+    margin : 10% 20% 10% 30%;
+    padding: 20px;
+    
+    border-radius: 5px;
+    
+}
+.ui-login p{
+    
+    background: #000;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 70px 0;
+    padding: 10px 0 0 0;
+    width: 320px;
+    height: 30px;
+    border-radius: 5px;
+    
+}

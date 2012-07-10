@@ -1,0 +1,51 @@
+/* 
+    Document   : sistema
+    Created on : 04/07/2012, 07:40:20
+    Author     : nelsonmota
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.sistema-localizacao {
+    margin: 10px 0 0 0;
+    width: 100%;
+    height: 200px;
+}
+.sistema-localizacao table{
+    font-size: 10px;
+}
+
+.sistema-localizacao table tr td{
+    /*border: 1px #000066 solid;*/
+    width: 250px;
+}
+
+.sistema-localizacao .locacao{
+    background: #FFF;
+    font-size: 12px;
+    padding: 0 10px 0 10px;
+    
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+    
+}
+
+.sistema-localizacao .locacao-titulo{
+    background: #cccccc;
+}
+
+.sistema-localizacao table tbody tr a{
+    color: #000066;
+    text-decoration: none;
+}
+
+.sistema-localizacao table tbody tr:hover{
+    background: #FFF;
+}
+

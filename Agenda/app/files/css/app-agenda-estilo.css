@@ -1,0 +1,123 @@
+/* 
+    Document   : app-agenda-estilo
+    Created on : 05/07/2012, 06:37:32
+    Author     : nelsonmota
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+
+/*
+#principal div{
+    border: 1px #000 solid;
+}*/
+
+#principal{
+    padding: 5% 0%;
+    
+}
+
+#meses{
+    
+    float: left;
+    width: 200px;
+    height: 290px;
+    padding: 150px 20px 0 20px;
+    
+    -webkit-box-shadow: #3f4c6b 2px 2px 2px 2px ;
+    box-shadow: #3f4c6b 2px 2px 2px 2px ; 
+    
+}
+
+#dias{
+    width: 740px;
+    height: 440px;
+    float: right;
+    
+    -webkit-box-shadow: #3f4c6b 2px 2px 2px 2px ;
+    box-shadow: #3f4c6b 2px 2px 2px 2px ; 
+    
+}
+
+#dias table{
+    padding: 20px 20px;
+}
+
+.grid{
+    width: 100%;
+}
+
+.grid thead tr td p{
+    color: #3f4c6b;
+    font-size: 20px;
+}
+
+.grid thead tr{
+    
+    text-align: center;
+    
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+    
+    -webkit-box-shadow: #ccc 2px 2px 2px 2px ;
+    box-shadow: #ccc 2px 2px 2px 2px ; 
+}
+
+.grid thead tr td{
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+    color: #3f4c6b;
+}
+
+.grid tbody{
+    overflow-y: scroll;
+    text-align: center;
+    color: #3f4c6b;
+}
+
+.grid tbody tr td{
+    font-size: 12px;
+    padding: 2px 12px 2px 12px;
+}
+
+.grid tbody tr:hover{
+    background: #eeeeee;
+    cursor: pointer;
+}
+
+#calendario{
+    width: 97%;
+    height: 450px;
+    padding: 5px;
+}
+
+#dsemana div{
+    border: 1px #000 solid;
+    width: 30px;
+    height: 15px;
+    float: left;
+    text-align: center;
+}
+#dsemananumeros div{
+    border: 1px #000 solid;
+    width: 30px;
+    height: 15px;
+    float: left;
+    text-align: center;
+}
+
+#mesanual {
+    width: 230px;
+    height: 180px;
+    border: 1px #000 solid;
+}
