@@ -1,0 +1,103 @@
+/* 
+    Document   : componentes
+    Created on : 28/06/2012, 22:32:22
+    Author     : nelsonmota
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+.ui-content-form{
+    margin: 5px 0 0 0;
+    height: 500px;
+}
+
+.ui-content-form table{
+    width: 100%;
+}
+
+.ui-content-form-titulo{
+    
+    color: #606c88;
+    
+    padding: 5px 0 0 0;
+    
+    border-radius: 2px;
+    border: 2px darkgrey solid;
+    
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */   
+}
+
+.ui-content-form-entradas{
+    margin: 20px 0 0 0;
+}
+
+.ui-content-form-entradas label{
+    
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    color: #606c88;
+    margin: 10px;
+}
+
+.ui-content-form-entradas p{
+    padding: 0;
+    margin: 0 0 0 10px;
+}
+
+.ui-texfield{
+    border: 1px #666666 solid;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.ui-selected{
+    border: 1px #666666 solid;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+
+.ui-button{}
+.ui-submit{
+    
+    font-size: 13px;
+    
+    background: #eeeeee;
+    
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+    background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+    background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+
+    -webkit-box-shadow: #7d7e7d 2px 2px 2px 2px ;
+    box-shadow: #7d7e7d 2px 2px 2px 2px ; 
+    
+    color: #606c88;
+    
+    text-decoration: none;
+    
+    padding: 6px 30px 6px 30px;
+    
+    border-radius: 3px;
+}
+
+.ui-submit:hover{
+    -webkit-box-shadow: #7d7e7d 1px 1px 1px 1px ;
+    box-shadow: #7d7e7d 1px 1px 1px 1px ;
+}
+
