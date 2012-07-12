@@ -69,16 +69,16 @@
                               // passa os parametros para o método da classe atual.
                               call_user_method_array($m,$c,$p);    
                          }else{
-                             header('location:/'.$project.'sistema/index/');
+                             echo "<p> 404 Page not found </p>";
                          }     
                     }else{
-                        header('location:/'.$project.'sistema/index/');
+                        echo "<p> 404 Page not found </p>";
                     }
                }else{
-                   header('location:/'.$project.'sistema/index/');
+                   echo "<p> 404 Page not found </p>";
                }
           }else{
-              header('location:/'.$project.'sistema/index/');
+              echo "<p> 404 Page not found </p>";
           }
      }
 ?>
