@@ -3,6 +3,7 @@
     <head>
         <title> Agenda </title>
         <link rel="stylesheet" href="{$css}estilo.css" />
+        <link rel="stylesheet" href="{$css}componentes.css" />
         <link   rel="stylesheet"       href="{$css}app-agenda-estilo.css" />
         <script type="text/javascript" src="{$js}jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="{$js}jquery-ui-1.8.21.custom.min.js"></script>
