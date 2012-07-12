@@ -1,10 +1,6 @@
 <?php
      
      
-
-     //Nome do projeto para o redirecionamento das paginas de erro.
-     $project = 'Agenda/';
-     
      // verifica se a url tem alguma barra
      $e = preg_match('[/]', $_SERVER['REQUEST_URI']);
      
@@ -69,16 +65,24 @@
                               // passa os parametros para o método da classe atual.
                               call_user_method_array($m,$c,$p);    
                          }else{
-                             echo "<p> 404 Page not found </p>";
+                             
+                              echo "<p> 404 Page not found </p>";
+                              
                          }     
                     }else{
+                        
                         echo "<p> 404 Page not found </p>";
+                        
                     }
                }else{
+                   
                    echo "<p> 404 Page not found </p>";
+                   
                }
           }else{
+              
               echo "<p> 404 Page not found </p>";
+              
           }
      }
 ?>
