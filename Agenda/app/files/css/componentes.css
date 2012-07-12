@@ -100,4 +100,50 @@
     -webkit-box-shadow: #7d7e7d 1px 1px 1px 1px ;
     box-shadow: #7d7e7d 1px 1px 1px 1px ;
 }
+.grid{
+    width: 100%;
+}
 
+.grid thead tr td p{
+    color: #3f4c6b;
+    font-size: 20px;
+}
+
+.grid thead tr{
+    
+    text-align: center;
+    
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+    
+    -webkit-box-shadow: #ccc 2px 2px 2px 2px ;
+    box-shadow: #ccc 2px 2px 2px 2px ; 
+}
+
+.grid thead tr td{
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+    color: #3f4c6b;
+}
+
+.grid tbody{
+    overflow-y: scroll;
+    text-align: center;
+    color: #3f4c6b;
+}
+
+.grid tbody tr td{
+    font-size: 12px;
+    padding: 2px 12px 2px 12px;
+}
+
+.grid tbody tr:hover{
+    background: #eeeeee;
+    cursor: pointer;
+}
