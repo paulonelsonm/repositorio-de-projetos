@@ -1,138 +1,86 @@
 <?php
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
- * Description of ControllerSistema
+ * Responsável por controlar todos o fluxo do sistema administrativo.
  *
  * @author nelsonmota
+ * @create 10/07/2012
+ * 
  */
 class ControllerSistema  extends Controller{
     
-     var $name = 'sistema';
-     //var $models = array('Sistema');
     
+    /**
+     * Nome do controller e o nome da pasta dentro da pasta view
+     * @var $name;
+     */
+    
+     var $name = 'sistema';
+     
+    /**
+     * Método construtor da classe
+     * @author Nelson Mota
+     * @access public
+     * @version 0.1
+     * @create 10/07/2012
+     * @return void;
+     */
     function __construct(){
         parent::__construct();
         $this->assign('name', 'nome do empreendimento alalalala');
     }
     
+    /**
+     * Método responsável por mostrar a tpl do local que será feito o serviço.
+     * @author Nelson Mota
+     * @access public
+     * @version 0.1
+     * @create 10/07/2012
+     * @return void;
+     */
+    
     public function index()
     {
-        
-        $this->assign('name', 'nome do empreendimento alalalala');
         $this->display('index.tpl');
     }
+    
+    /**
+     * Mostra o template principal do do gerenciamento
+     * @author Nelson Mota
+     * @access public
+     * @version 0.1
+     * @create 10/07/2012
+     * @return void;
+     */
     
     public function agenda()
     {
         $this->display('agenda.tpl');
     }
     
+    /**
+     * Faz um novo agendamento
+     * @author Nelson Mota
+     * @access public
+     * @version 0.1
+     * @create 10/07/2012
+     * @return void;
+     */
+    
     public function novo(){
         $this->display('agenda-novo.tpl');
     }
     
     
-    public function calendario(){
-        
-        $ano = date('Y');
-        
-        $dates = array();
-        
-        $dates[] = array(
-            
-            '13:00' => array(
-                0 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 1',
-                    'reserva'  => 'Sala 1'
-                ),
-                1 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 2',
-                    'reserva'  => 'Sala 2'
-                ),
-                2 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 3',
-                    'reserva'  => 'Sala 1'
-                ),
-                3 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 4',
-                    'reserva'  => 'Sala 1'
-                ),
-                4 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 5',
-                    'reserva'  => 'Sala 2'
-                )
-            ),
-            '15:00' => array(
-                
-                0 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 1',
-                    'reserva'  => 'Sala 1'
-                ),
-                1 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 2',
-                    'reserva'  => 'Sala 2'
-                ),
-                2 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 3',
-                    'reserva'  => 'Sala 1'
-                ),
-                3 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 4',
-                    'reserva'  => 'Sala 1'
-                ),
-                4 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 5',
-                    'reserva'  => 'Sala 2'
-                )
-            ),
-            '17:00' => array(
-                
-                0 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 1',
-                    'reserva'  => 'Sala 1'
-                ),
-                1 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 2',
-                    'reserva'  => 'Sala 2'
-                ),
-                2 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 3',
-                    'reserva'  => 'Sala 1'
-                ),
-                3 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 4',
-                    'reserva'  => 'Sala 1'
-                ),
-                4 => array(
-                    'servico' => 'Aluguel',
-                    'usuario' => 'Nelson Mota 5',
-                    'reserva'  => 'Sala 2'
-                )
-            )
-        ); 
-        
-        $this->writejson($dates);
-        
-    }
+    /**
+     * @author Nelson Mota
+     * @access public
+     * @version 0.1
+     * @create 10/07/2012
+     * @return object JSON : Agendamentos nos seus devidos horarios
+     */
+    
+    public function calendario(){}
     
     
 }
