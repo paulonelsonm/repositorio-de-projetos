@@ -147,3 +147,13 @@
     background: #eeeeee;
     cursor: pointer;
 }
+.grid-button{
+    padding: 4px 20px 5px 20px;
+    text-decoration: underline;
+    color: #3f4c6b;
+    font-weight: bolder;
+}
+
+.grid-button:hover{
+    text-decoration: none;
+}
