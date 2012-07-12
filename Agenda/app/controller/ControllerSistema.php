@@ -83,6 +83,31 @@ class ControllerSistema  extends Controller{
     public function calendario(){}
     
     
+    
+    /**
+     * Template que mostra quais as reservas tem cadastradas.
+     * @author Nelson Mota
+     * @access public
+     * @version 0.1
+     * @create 12/07/2012
+     * 
+     */
+    public function reserva(){
+        $this->display('reserva.tpl');
+    }
+    
+    
+    /**
+     * Template de cadastro de um centro de reserva
+     * @author Nelson Mota
+     * @access public
+     * @version 0.1
+     * @create 12/07/2012
+     * 
+     */
+    public function reservanovo(){
+        $this->display('reserva-novo.tpl');
+    }
 }
 
 ?>
