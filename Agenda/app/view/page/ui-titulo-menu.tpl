@@ -5,8 +5,8 @@
             <ul>
                 <li> <a href="{$server}sistema/novo/"> Agendar   </a> </li>
                 <li> <a href="{$server}sistema/reserva/"> Centro de reserva  </a> </li>
-                <li> <a href="#"> Local   </a> </li>
-                <li> <a href="#"> Serviços  </a> </li>
+                <li> <a href="{$server}sistema/local/" > Local   </a> </li>
+                <li> <a href="{$server}sistema/servico/" > Serviços  </a> </li>
             </ul>
         </li>
         <li> <a href="#"> Marketing </a>
