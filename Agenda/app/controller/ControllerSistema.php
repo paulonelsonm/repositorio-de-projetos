@@ -27,7 +27,7 @@ class ControllerSistema  extends Controller{
      */
     function __construct(){
         parent::__construct();
-        $this->assign('name', 'nome do empreendimento alalalala');
+        $this->assign('name', '<|Nome do local|>');
     }
     
     /**
@@ -107,6 +107,74 @@ class ControllerSistema  extends Controller{
      */
     public function reservanovo(){
         $this->display('reserva-novo.tpl');
+    }
+    
+    
+    /**
+     * Template da administraçao de serviços
+     * @author Nelson Mota
+     * @access public
+     * @version 0.1
+     * @create 12/07/2012
+     * 
+     */
+    public function servico(){
+        $this->display('servico.tpl');
+    }
+    
+    /**
+     * Template do cadastro de serviços
+     * @author Nelson Mota
+     * @access public
+     * @version 0.1
+     * @create 12/07/2012
+     * 
+     */
+    
+    public function serviconovo(){
+        $this->display('servico-novo.tpl');
+    }
+    
+    
+    /**
+     * Template da administracao de locais de serviços
+     * @author Nelson Mota
+     * @access public
+     * @version 0.1
+     * @create 12/07/2012
+     * 
+     */
+    public function local()
+    {
+        $this->display('local.tpl');
+    }
+    
+    
+    /**
+     * Template de cadastro de locais de serviços
+     * @author Nelson Mota
+     * @access public
+     * @version 0.1
+     * @create 12/07/2012
+     * 
+     */
+    public function localnovo()
+    {
+        $this->display('local-novo.tpl');
+    }
+    
+    /**
+     * Apresenta o form ao qual o usuário colocará um novo endereço do local
+     * @author Nelson Mota
+     * @access public
+     * @version 0.1
+     * @create 13/07/2012
+     * 
+     */
+    
+    public function localform()
+    {
+        $this->display('local-form.tpl');
     }
 }
 
