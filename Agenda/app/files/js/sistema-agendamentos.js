@@ -10,8 +10,16 @@ function SistemaAgendamentos(){
     this.Main = function(){
         $(document).ready(function(){
             
-            $('#locacao1 table tbody tr').click(function(){
-               location.href = '/Agenda/sistema/agenda/'+$(this).attr('alt');
+            $('#preencher').change(function(){
+                $('#preenchidousuario').hide();
+                
+                $('#preenchernovo').load(path+'sistema/localform/', {limit : 50}, function(){});
+                $('#preenchernovo').fadeIn(1000);
+            });
+            
+            $('#usuario').change(function(){
+                $('#preenchernovo').hide();
+                $('#preenchidousuario').fadeIn(1000);
             });
             
         });
