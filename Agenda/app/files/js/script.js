@@ -3,6 +3,8 @@
  * and open the template in the editor.
  */
 
+var path = 'http://localhost/Agenda/';
+
 function Request() {
      
      var callbacks = $.Callbacks();
