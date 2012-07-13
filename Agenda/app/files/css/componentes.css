@@ -74,6 +74,7 @@
     
     font-size: 13px;
     
+    cursor: pointer;
     background: #eeeeee;
     
     background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
