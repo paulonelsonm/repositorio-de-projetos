@@ -4,9 +4,9 @@
             <a href="{$server}sistema/index/"> Sistema </a>
             <ul>
                 <li> <a href="{$server}sistema/novo/"> Agendar   </a> </li>
-                <li> <a href="{$server}sistema/reserva/"> Centro de reserva  </a> </li>
-                <li> <a href="{$server}sistema/local/" > Local   </a> </li>
-                <li> <a href="{$server}sistema/servico/" > Serviços  </a> </li>
+                <li> <a href="{$server}reserva/index/"> Centro de reserva  </a> </li>
+                <li> <a href="{$server}local/index/" > Local   </a> </li>
+                <li> <a href="{$server}servico/index/" > Serviços  </a> </li>
             </ul>
         </li>
         <li> <a href="#"> Marketing </a>

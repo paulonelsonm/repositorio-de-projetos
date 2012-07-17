@@ -3,7 +3,7 @@
     <head>
         <title> Agenda </title>
         <link rel="stylesheet" href="{$css}estilo.css" />
-        <link rel="stylesheet" href="{$css}componentes.css" />  
+        <link rel="stylesheet" href="{$css}componentes.css" />
         <script type="text/javascript" src="{$js}jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="{$js}jquery-ui-1.8.21.custom.min.js"></script>
         <script type="text/javascript" src="{$js}sistema-agendamentos.js"></script>
@@ -15,37 +15,42 @@
             {include file='../page/ui-titulo.tpl'}
             {include file='../page/ui-titulo-menu.tpl'}
             <div class="ui-content-conteudo">
+                
                 <table class="grid">
                     <thead>
-                        <tr> <td  colspan="4"> <p> Local de serviços </p> </td> </tr>
                         <tr>
-                             <td align="left"> <a href="#" class="grid-button" > Nome Local </a> </td>
-                             <td colspan="2" width="10%"> <a href="{$server}sistema/localnovo/" class="grid-button" >  Novo Local </a> </td>
+                             <td> <a href="#" class="grid-button" > Tipo de serviço </a> </td>
+                             <td> <a href="#" class="grid-button" > Nome do Serviço </a> </td>
+                             <td colspan="2"> <a href="{$server}servico/novo/" class="grid-button" >  Novo serviço </a> </td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td align="left"> Local 1  </td>
+                            <td> Alguel 1 </td>
+                            <td> Aluguel de Studio 1 </td>
                             <td><a class="grid-button" href="#"> alterar </a></td>
                             <td><a class="grid-button" href="#"> remover </a></td>
                         </tr>
                         <tr>
-                            <td align="left"> Local 2  </td>
+                            <td> Alguel 1 </td>
+                            <td> Aluguel de Studio 2 </td>
                             <td><a class="grid-button" href="#"> alterar </a></td>
                             <td><a class="grid-button" href="#"> remover </a></td>
                         </tr>
                         <tr>
-                            <td align="left"> Local 3  </td>
+                            <td> Alguel 1 </td>
+                            <td> Aluguel de Studio 3 </td>
                             <td><a class="grid-button" href="#"> alterar </a></td>
                             <td><a class="grid-button" href="#"> remover </a></td>
                         </tr>
                         <tr>
-                            <td align="left"> Local 4  </td>
+                            <td> Alguel 1 </td>
+                            <td> Aluguel de Studio 4 </td>
                             <td><a class="grid-button" href="#"> alterar </a></td>
                             <td><a class="grid-button" href="#"> remover </a></td>
                         </tr>
                     </tbody>
-                </table>
+                </table>    
                 
             </div>
         </div>

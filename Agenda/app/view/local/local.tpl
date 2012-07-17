@@ -17,46 +17,35 @@
             <div class="ui-content-conteudo">
                 <table class="grid">
                     <thead>
-                        <tr> <td colspan="4"> <p> Centro de reservas </p> </td> </tr>
                         <tr>
-                            <td> <a href="#" class="grid-button" > Nome da reserva </a> </td>
-                             <td> <a href="#" class="grid-button" > Serviço </a> </td>
-                             <td colspan="2"> <a href="{$server}sistema/reservanovo/" class="grid-button" >  Nova Reserva </a> </td>
+                             <td align="left"> <a href="#" class="grid-button" > Nome Local </a> </td>
+                             <td colspan="2" width="10%"> <a href="{$server}local/novo/" class="grid-button" >  Novo Local </a> </td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td> Reserva 1 </td>
-                            <td> Aluguel 1  </td>
+                            <td align="left"> Local 1  </td>
                             <td><a class="grid-button" href="#"> alterar </a></td>
                             <td><a class="grid-button" href="#"> remover </a></td>
                         </tr>
                         <tr>
-                            <td> Reserva 1 </td>
-                            <td> Aluguel 1  </td>
+                            <td align="left"> Local 2  </td>
                             <td><a class="grid-button" href="#"> alterar </a></td>
                             <td><a class="grid-button" href="#"> remover </a></td>
                         </tr>
                         <tr>
-                            <td> Reserva 1 </td>
-                            <td> Aluguel 1  </td>
+                            <td align="left"> Local 3  </td>
                             <td><a class="grid-button" href="#"> alterar </a></td>
                             <td><a class="grid-button" href="#"> remover </a></td>
                         </tr>
                         <tr>
-                            <td> Reserva 1 </td>
-                            <td> Aluguel 1  </td>
-                            <td><a class="grid-button" href="#"> alterar </a></td>
-                            <td><a class="grid-button" href="#"> remover </a></td>
-                        </tr>
-                        <tr>
-                            <td> Reserva 1 </td>
-                            <td> Aluguel 1  </td>
+                            <td align="left"> Local 4  </td>
                             <td><a class="grid-button" href="#"> alterar </a></td>
                             <td><a class="grid-button" href="#"> remover </a></td>
                         </tr>
                     </tbody>
                 </table>
+                
             </div>
         </div>
     </body>

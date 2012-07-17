@@ -20,9 +20,6 @@
                         <table widthd="100%">
                             <thead>
                                 <tr>
-                                    <td class="ui-content-form-titulo" > Novo agendamento </td>
-                                </tr>
-                                <tr>
                                     <td><p>&nbsp;</p></td>
                                 </tr>
                             </thead>

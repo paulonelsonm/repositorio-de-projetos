@@ -19,14 +19,11 @@
                     <table width="100%" >
                         <thead>
                             <tr>
-                                <td class="ui-content-form-titulo" > Novo centro de reserva </td>
-                            </tr>
-                            <tr>
                                 <td><p>&nbsp;</p></td>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="ui-content-form-entradas" >
+                            <tr class="ui-content-form-entradas">
                                 <td> 
                                     <label> Serviço </label> 
                                     <p> 

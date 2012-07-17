@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="{$css}componentes.css" />  
         <script type="text/javascript" src="{$js}jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="{$js}jquery-ui-1.8.21.custom.min.js"></script>
+        <script type="text/javascript" src="{$js}jquery.maskedinput-1.3.min.js"></script>
         <script type="text/javascript" src="{$js}script.js"></script>
         <script type="text/javascript" src="{$js}sistema-agendamentos.js"></script>
         <meta charset="utf-8" lang="pt-br" />
@@ -17,13 +18,10 @@
             {include file='../page/ui-titulo-menu.tpl'}
             <div class="ui-content-conteudo">
                 
-                <form method="POST" action="#" >
+                <form method="POST" action="{$server}local/index/" >
                     
                     <table width="100%" >
                         <thead>
-                            <tr>
-                                <td class="ui-content-form-titulo" colspan="2" > Novo centro de reserva </td>
-                            </tr>
                             <tr>
                                 <td><p>&nbsp;</p></td>
                             </tr>
@@ -51,12 +49,20 @@
                     <div id="preenchidousuario" style="display: none;" >
                         <table>
                             <tbody>
-                                 <tr>
+                                <tr class="ui-content-form-entradas" >
+                                    <td> 
+                                        <label> Nome do local </label>
+                                        <p>
+                                            <input type="text" name="Local[nome]" class="ui-texfield" />
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
                                     <td><p>&nbsp;</p></td>
                                 </tr>
                                 <tr class="ui-content-form-entradas">
                                     <td> 
-                                        <p> <input type="submit" class="ui-submit" value="Salvar"  /> </p>
+                                        <p> <input type="submit" class="ui-submit"  value="Salvar"  /> </p>
                                     </td>
                                 </tr>
                             </tbody>

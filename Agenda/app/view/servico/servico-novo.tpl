@@ -14,13 +14,9 @@
             {include file='../page/ui-titulo.tpl'}
             {include file='../page/ui-titulo-menu.tpl'}
             <div class="ui-content-conteudo">
-           
-                <form method="POST"  action="{$server}sistema/servico/" >
+                <form method="POST"  action="{$server}servico/salvar/" >
                     <table width="100%" >
                         <thead>
-                            <tr>
-                                <td class="ui-content-form-titulo" > Novo serviço </td>
-                            </tr>
                             <tr>
                                 <td><p>&nbsp;</p></td>
                             </tr>
@@ -31,10 +27,11 @@
                                 <td> 
                                     <label> Tipo de Serviço </label> 
                                     <p> 
-                                        <select name="Servico[tipo]"  class="ui-selected">
-                                            <option>  Tipo 1 </option>
-                                            <option>  Tipo 2 </option>
-                                            <option>  Tipo 3 </option>
+                                        <select name="Servico[tipo]" required="true"  class="ui-selected">
+                                            <option value=""> SELECIONE </option>
+                                            {foreach item=c from=$tipo_servico}
+                                                <option value="{$c.ID}"> {$c.Descricao} </option>
+                                            {/foreach}
                                         </select>
                                     </p> 
                                 </td>
@@ -43,7 +40,7 @@
                                 <td> 
                                     <label> Nome do serviço </label> 
                                     <p> 
-                                        <input type="text" name="Servico[nome]"  class="ui-selected"/>
+                                        <input type="text" name="Servico[nome]" required="true"  class="ui-selected"/>
                                     </p> 
                                 </td>
                             </tr>
