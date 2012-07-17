@@ -13,7 +13,7 @@ function SistemaAgendamentos(){
             $('#preencher').change(function(){
                 $('#preenchidousuario').hide();
                 
-                $('#preenchernovo').load(path+'sistema/localform/', {limit : 50}, function(){});
+                $('#preenchernovo').load(path+'local/localform/', {limit : 50}, function(){});
                 $('#preenchernovo').fadeIn(1000);
             });
             
