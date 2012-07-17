@@ -25,7 +25,7 @@ body div{
     width: 1024px;
     height: 700px;
     
-    /*position: fixed;*/
+    position: fixed;
     border: 1px #f2f5f6 solid;
     
     background: #eeeeee;
@@ -46,7 +46,7 @@ body div{
 .ui-content-menu{
     margin: 0;
     padding: 0;
-    height: 48px;
+    height: 50px;
     background: #000;
     border: 2px darkgrey solid;
     
@@ -182,8 +182,9 @@ body div{
 }
 
 .ui-content-conteudo{
-    height: 425px;
+    height: 80%;
     font-size: 10px;
+    overflow-y: scroll;
 }
 
 .ui-content-rodape{
